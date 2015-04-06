@@ -16,8 +16,9 @@
     "url": "https://github.com/lafar6502/glog/issues"
   },
   "dependencies": {
-    "sqlite3": "~3.0.5",
     "express": "~4.12.2",
-    "lodash": "~3.5.0"
+    "lodash": "~3.5.0",
+    "sqlite3": "~3.0.5",
+    "sqlite3-transactions": "0.0.5"
   }
 }
