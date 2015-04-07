@@ -1,7 +1,7 @@
 {
   "name": "glog",
   "version": "0.0.0",
-  "description": "",
+  "description": "Simple log collector - stores log messages in sqlite database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +16,9 @@
     "url": "https://github.com/lafar6502/glog/issues"
   },
   "dependencies": {
-    "express": "~4.12.2",
+    "express": "^4.12.3",
     "lodash": "~3.5.0",
     "moment": "^2.9.0",
-    "sqlite3": "~3.0.5",
-    "sqlite3-transactions": "0.0.5"
+    "sqlite3": "~3.0.5"
   }
 }
