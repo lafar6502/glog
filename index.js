@@ -1,3 +1,7 @@
 var lr = require('./lib/logcollector');
+var lrepo = require('./lib/logrepo');
 
-module.exports = lr;
+module.exports = {
+    openLogRepository: lrepo.openLogRepository,
+    createLogCollector: lr.createLogCollector
+};
