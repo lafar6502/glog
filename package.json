@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "express": "^4.12.3",
+    "graygelf": "^1.0.0",
     "lodash": "~3.5.0",
     "moment": "^2.9.0",
     "sqlite3": "~3.0.5"
